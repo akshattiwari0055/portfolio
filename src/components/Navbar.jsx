@@ -3,7 +3,7 @@ import { FaSun, FaMoon, FaBars, FaTimes, FaFileDownload } from "react-icons/fa";
 import { PrimaryButton } from "./ui/Button";
 
 const NAV_ITEMS = ["about", "projects", "skills", "contact"];
-const resumePdf = "resume.pdf";
+const resumePdf = "/resume.pdf";
 
 export default function Navbar() {
   const [isDark, setIsDark] = useState(() => {
@@ -71,7 +71,7 @@ export default function Navbar() {
             onClick={() => {
               const link = document.createElement("a");
               link.href = resumePdf;
-              link.download = "Akshat_Tiwari_Resume.pdf";
+              link.download = "/resume.pdf";
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
