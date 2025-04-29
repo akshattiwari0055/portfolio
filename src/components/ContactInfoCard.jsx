@@ -6,8 +6,8 @@ const resumePdf = "resume.pdf";
 
 export default function ContactInfo({ itemVariants }) {
   const contactItems = [
-    { icon: HiOutlineMail, label: "Email", value: "akshattiwari69399@gmail.com", href: "mailto:akshattiwari6939@gmail.com" },
-    { icon: HiOutlinePhone, label: "Phone", value: "+91 84000194579", href: "tel:+9184000194579" },
+    { icon: HiOutlineMail, label: "Email", value: "akshattiwari6939@gmail.com", href: "mailto:akshattiwari6939@gmail.com" },
+    { icon: HiOutlinePhone, label: "Phone", value: "+91 8400194579", href: "tel:+9184000194579" },
     { icon: FaLinkedin, label: "LinkedIn", value: "linkedin.com/in/akshat-tiwari", href: "https://linkedin.com/in/akshat-tiwari" },
     { icon: FaGithub, label: "GitHub", value: "github.com/akshattiwari0055", href: "https://github.com/akshattiwari0055" }
   ];
